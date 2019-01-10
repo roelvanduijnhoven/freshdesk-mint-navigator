@@ -1,5 +1,5 @@
 # freshdesk-mint-navigator
-Navigate using [ and ] shortcuts in Ticket conversation
+Navigate using `-` and `=` shortcuts in Ticket conversation
 
 ## Installation
 
