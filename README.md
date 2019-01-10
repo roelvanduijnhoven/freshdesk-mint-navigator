@@ -10,4 +10,4 @@ Done!
 
 ## Usage
 
-Once you are on a FreshDesk (Mint) ticket conversation you can use the `[` and `]` keyboard shortcuts to respectively navigate to an older or newer reply in the conversation.
+Once you are on a FreshDesk (Mint) ticket conversation you can use the `-` and `=` keyboard shortcuts to respectively navigate to an older or newer reply in the conversation.
