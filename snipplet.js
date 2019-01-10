@@ -3,7 +3,7 @@ var currentHighlighted = null;
 window.onkeyup = function (e) {
   var key = e.keyCode ? e.keyCode : e.which;
 
-  if (key != 219 && key != 221) {
+  if (key != 187 && key != 189) {
     return;
   }
 
@@ -43,9 +43,9 @@ window.onkeyup = function (e) {
 
   var newIndex = currentIndex;
   if (!firstTime) {
-    if (key == 219) {
+    if (key == 189) {
       newIndex = Math.max(0, currentIndex - 1);
-    } else if (key == 221) {
+    } else if (key == 187) {
       newIndex = Math.min(responses.length - 1, currentIndex + 1);
     }
   }
