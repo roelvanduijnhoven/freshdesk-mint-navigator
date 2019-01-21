@@ -1,9 +1,9 @@
 var currentHighlighted = null;
 
 window.onkeyup = function (e) {
-  var key = e.keyCode ? e.keyCode : e.which;
+  var key = e.key;
 
-  if (key != 187 && key != 189) {
+  if (key != '-' && key != '=') {
     return;
   }
 
@@ -43,9 +43,9 @@ window.onkeyup = function (e) {
 
   var newIndex = currentIndex;
   if (!firstTime) {
-    if (key == 189) {
+    if (key == '-') {
       newIndex = Math.max(0, currentIndex - 1);
-    } else if (key == 187) {
+    } else if (key == '=') {
       newIndex = Math.min(responses.length - 1, currentIndex + 1);
     }
   }
