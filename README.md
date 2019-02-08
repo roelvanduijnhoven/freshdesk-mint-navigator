@@ -6,7 +6,7 @@ Navigate using `-` and `=` shortcuts in Ticket conversation
 1. Install a browser extension that can run custom JavaScript for specific websites:
    * Chrome: [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en)
    * Firefox: [Custom Style Script](https://addons.mozilla.org/en-US/firefox/addon/custom-style-script/)
-2. Add `https://roelvanduijnhoven.github.io/freshdesk-mint-navigator/snipplet.js` as external script for your FreshDesk domain.
+2. Visit FreshDesk in your browser. Now add `https://roelvanduijnhoven.github.io/freshdesk-mint-navigator/snipplet.js` as external script to the extension.
 
 Done!
 
