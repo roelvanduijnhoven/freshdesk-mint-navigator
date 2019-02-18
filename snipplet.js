@@ -17,21 +17,9 @@
     var firstTime = false;
 
     // Start with last item by default
-    // TODO better would be to pick one you are viewing at right now.
     if (currentHighlighted === null || $('[data-album=' + currentHighlighted + ']').length === 0) {
       firstTime = true;
-      var highlightResponse = responses[responses.length - 1];
-
-      // Find last response of which top part is visible
-      for (var k in responses) {
-        if (responses[k].dataset && $(responses[k]).offset().top > $(window).scrollTop() + 30) {
-          firstTime = false;
-          highlightResponse = responses[k];
-          break;
-        }
-      }
-
-      currentHighlighted = highlightResponse.dataset.album;
+      currentHighlighted = responses[responses.length - 1].dataset.album;
     }
 
     var currentIndex = 0;
